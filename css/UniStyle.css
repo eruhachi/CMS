@@ -1,0 +1,16 @@
+@font-face {
+  font-family: Sniglet;
+  src: url(../font/Sniglet-Regular.ttf);
+}
+@font-face {
+  font-family: Karla;
+  src: url(../font/Karla-Regular.ttf);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: Karla;
+}
