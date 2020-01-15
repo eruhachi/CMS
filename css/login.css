@@ -1,0 +1,47 @@
+.loginBlock{
+  background-color: white;
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  height: 40%;
+  width: 20%;
+  text-align: center;
+  border-radius: 10%;
+  vertical-align: center;
+}
+
+.loginGrid{
+    display: flex;
+}
+
+.loginTitle{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.loginForm{
+  height: 100%;
+
+}
+
+.loginCheck{
+  height: 10px;
+  width: 10px;
+}
+
+.loginChecktxt{
+  font-size: 11px;
+}
+
+.loginCred{
+}
+
+.loginButton{
+}
+
+.loginCheckbtxt{
+  display: inline-block;
+  justify-content: center;
+  flex-direction: column;
+}

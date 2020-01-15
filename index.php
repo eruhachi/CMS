@@ -1,3 +1,7 @@
+<?php
+include_once 'php/config.php';
+ ?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -5,7 +9,8 @@
     <title>CMS</title>
     <link rel="stylesheet" href="css/UniStyle.css">
   </head>
+
   <body>
-<p>tentoe</p>
+
   </body>
 </html>
