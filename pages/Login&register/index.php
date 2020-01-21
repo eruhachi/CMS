@@ -1,4 +1,9 @@
-
+<?php  if (!isset($_SESSION['nID']))
+{
+    header("Location: login.php");
+    die();
+}
+		?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,12 +15,6 @@
 		<h2>Home Page</h2>
 	</div>
 	<div class="content">
-
-		<!-- Ingelogde gebruiker informatie -->
-		<?php  if (isset($_SESSION['username'])) : ?>
-			<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
-			<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
-		<?php endif ?>
 	</div>
 		
 </body>
