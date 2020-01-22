@@ -1,9 +1,4 @@
-<?php  if (!isset($_SESSION['nID']))
-{
-    header("Location: login.php");
-    die();
-}
-		?>
+
 <!DOCTYPE html>
 <html>
 <head>
