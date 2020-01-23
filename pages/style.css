@@ -24,10 +24,10 @@ h1{
 
 ul {
 	list-style-type: none;
-	
+
 	background-color: aqua
   }
-  
+
  li a {
 	display: block;
 	text-align: center;
@@ -35,4 +35,3 @@ ul {
 	text-decoration: none;
 	float: right;
   }
-  
