@@ -1,21 +1,8 @@
-<?php  if (!isset($_SESSION['nID']))
-{
-    header("Location: login.php");
-    die();
-}
-		?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div class="header">
-		<h2>Home Page</h2>
-	</div>
-	<div class="content">
-	</div>
-		
+<H1> Je bent nu ingelogd </h1>
 </body>
 </html>
