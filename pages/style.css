@@ -7,6 +7,7 @@ header{
 	width: 80%;
 	margin: auto;
 	background-color: white;
+	border-radius: 12px;
 }
 
 ul{
@@ -31,10 +32,12 @@ li a{
 	width: 80%;
 	margin: auto;
 	background-color: white;
+	border-radius: 12px;
 }
 
 footer{
 	width: 80%;
 	margin: auto;
 	background-color: white;
+	border-radius: 12px;
 }
