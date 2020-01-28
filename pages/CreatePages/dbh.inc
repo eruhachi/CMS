@@ -3,10 +3,10 @@
 $servername = "localhost";
 $dBUsername = "root";
 $dBPassword = "";
-$dBName = "Login";
+$dBName = "pages";
 
 $conn = mysqli_connect($servername, $dBUsername, $dBPassword, $dBName);
 
 if (!$conn) {
-    die("Connection Failed: ".mysqli_connect_error());
-}
+    die("Connection Failed: ".mysqli_connect_error());}
+?>

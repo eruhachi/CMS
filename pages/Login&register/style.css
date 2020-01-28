@@ -1,10 +1,18 @@
+@font-face {
+	src: url(../../font/Karla-Regular.ttf);
+	font-family: Karla;
+}
+
 * {
 	margin: 0px;
 	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	font-family: Karla;
 }
-body {
-	font-size: 120%;
-	background: #F8F8FF;
+
+body{
+background-color: #efefef;	
 }
 
 .header {
@@ -52,18 +60,18 @@ form, .content {
 	border-radius: 5px;
 }
 .error {
-	width: 92%; 
-	margin: 0px auto; 
-	padding: 10px; 
-	border: 1px solid #a94442; 
-	color: #a94442; 
-	background: #f2dede; 
-	border-radius: 5px; 
+	width: 92%;
+	margin: 0px auto;
+	padding: 10px;
+	border: 1px solid #a94442;
+	color: #a94442;
+	background: #f2dede;
+	border-radius: 5px;
 	text-align: left;
 }
 .success {
-	color: #3c763d; 
-	background: #dff0d8; 
+	color: #3c763d;
+	background: #dff0d8;
 	border: 1px solid #3c763d;
 	margin-bottom: 20px;
 }
