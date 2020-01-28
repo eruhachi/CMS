@@ -6,9 +6,11 @@ body {
 header{
 	width: 80%;
 	margin: auto;
+	margin-bottom: 10px;
 	background-color: white;
 	font-family: sniglet;
 	border-radius: 12px;
+	font-size: 20px;
 }
 
 ul{
@@ -48,6 +50,33 @@ li:last-child:hover > a{
 .wrapper{
 	width: 80%;
 	margin: auto;
+	margin-bottom: 10px;
+	border-radius: 12px;
+	display: grid;
+	grid-template-areas: 
+	'login list'
+	'content content';
+	grid-gap: 10px;
+}
+
+.login{
+	grid-area: login;
+	padding: 20px;
+	background-color: white;
+	border-radius: 12px;
+
+}
+
+.list{
+	grid-area: list;
+	padding: 20px;
+	background-color: white;
+	border-radius: 12px;
+}
+
+.content{
+	grid-area: content;
+	padding: 20px;
 	background-color: white;
 	border-radius: 12px;
 }
