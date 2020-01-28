@@ -27,7 +27,7 @@ li{
 li a{
 	display: block;
 	text-align: left;
-	padding: 14px 16px;
+	padding: 10px 15px;
     text-decoration: none;
 }
 
@@ -85,7 +85,9 @@ footer{
 	width: 80%;
 	margin: auto;
 	background-color: white;
-	border-radius: 12px
+	border-radius: 12px;
+	text-align: center;
+	padding: 10px 0 10px 0;
 }
 @font-face{
 	src: url(../font/Sniglet-Regular.ttf);
