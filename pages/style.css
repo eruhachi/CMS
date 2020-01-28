@@ -41,7 +41,7 @@ li:last-child{
 	float: right;
 }
 
-li:last-child:hover{
+li:last-child:hover > a{
 	border-radius: 0 12px 12px 0;
 }
 
