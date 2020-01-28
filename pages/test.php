@@ -1,3 +1,5 @@
+<?php ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,9 +18,22 @@
 	</header>
 
 	<div class="wrapper">
-		<div class="login">hoi</div>
-		<div class="list">bye</div>
-		<div class="content"><h1>Content</h1></div>
+		<div class="login">login</div>
+		<div class="list">pages</div>
+		<div class="content">
+	
+	<form action="">
+		<label>title</label>
+		<br>
+		<input type="text" placeholder="title">
+		<br>
+		<label>a</label>
+		<br>
+		<input type=""
+
+	</form>
+	
+    </div>
 	</div>
 
 	<footer>
@@ -27,3 +42,4 @@
 
 </body>
 </html>
+
