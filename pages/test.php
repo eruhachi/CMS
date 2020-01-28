@@ -11,7 +11,7 @@
 	<header>
 		<nav>
 			<ul>
-				<li><a href="test.html">Home</a></li>
+				<li><a href="test.php">Home</a></li>
 				<li><a href="hoi.html">User</a></li>
 			</ul>
 		</nav>
@@ -23,16 +23,15 @@
 		<div class="content">
 	
 	<form action="">
-		<label>title</label>
+		<label for="title">title</label>
 		<br>
-		<input type="text" placeholder="title">
+		<input type="text" placeholder="title" id="title">
 		<br>
 		<label>a</label>
 		<br>
-		<input type=""
-
+		<input type="text">
 	</form>
-	
+
     </div>
 	</div>
 
