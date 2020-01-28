@@ -11,7 +11,7 @@
 	<header>
 		<nav>
 			<ul>
-				<li><a href="test.html">Home</a></li>
+				<li><a href="test.php">Home</a></li>
 				<li><a href="hoi.html">User</a></li>
 			</ul>
 		</nav>
@@ -23,15 +23,15 @@
 		<div class="content">
 	
 	<form action="">
-		<label>title</label>
+		<label for="title">title</label>
 		<br>
-		<input type="text" placeholder="title">
+		<input type="text" placeholder="title" id="title">
 		<br>
 		<label>a</label>
 		<br>
-		<input type=""
-
+		<input type="text">
 	</form>
+
 	Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores et deleniti eius labore aspernatur veniam nobis velit nihil, laudantium, tempore voluptas? Incidunt temporibus cum aspernatur in non maiores cupiditate voluptas?
 	Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptates eligendi reiciendis, assumenda blanditiis similique, exercitationem dolorem itaque ratione voluptatem consectetur, maxime saepe eaque aspernatur cum commodi id dolore ullam.
 	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam soluta exercitationem neque est quaerat corrupti eligendi eos a voluptatem nobis optio, excepturi, deleniti sint magnam, voluptate veritatis itaque deserunt iure.
