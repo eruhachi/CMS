@@ -72,7 +72,7 @@
 	</div>
 
 	<footer>
-		<p>made by: blue shell</p>
+		<p class="copyright">made by: blue shell</p>
 		<button onclick="topfunction()">Omhoog</button>
 	</footer>
 

@@ -89,7 +89,20 @@ footer{
 	border-radius: 12px;
 	text-align: center;
 	padding: 10px 0 10px 0;
+	display: grid;
+	grid-template-areas: 
+	'copyright button';
 }
+
+.copyright{
+	grid-area: copyright;
+}
+
+#button{
+	grid-area: button;
+	text-align: right;
+}
+
 @font-face{
 	src: url(../font/Sniglet-Regular.ttf);
 	font-family: sniglet;
