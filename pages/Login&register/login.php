@@ -68,10 +68,10 @@
 							Signup
 						</a>
 					</div>
-					<center><h3>Forgot password?</h3></center>		
+					<center><h3>Wachtwoord vergeten?</h3></center>		
 					<div class="text-center p-t-8 p-b-31">
 						<a href="reset.php">
-							Reset now
+							Wachtwoord herstellen
 						</a>
 					</div>
 

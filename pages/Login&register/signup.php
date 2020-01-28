@@ -51,7 +51,7 @@
 					<div class="wrap-input100 validate-input m-b-23" data-validate="E-mail is required">
 						<span class="label-input100">E-mail</E-mail></span>
 						<input class="input100" type="text" name="mail" placeholder="Type your e-mail">
-						<span class="focus-input100" data-symbol="&#xf190;"></span>
+						<span class="focus-input100" data-symbol="&#x2709;"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input m-b-23" data-validate="Password is required">
@@ -77,8 +77,9 @@
 					</div>
 					<br>
 					<div class="text-center p-t-8 p-b-31">
+					<h3> Heb je al een account? </h3>
 						<a href="login.php">
-							Already have an account?
+							Login
 						</a>
 					</div>
 					</form>

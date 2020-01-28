@@ -56,9 +56,9 @@
 						</div>
 					</div>
 					<br>
-					<center><h3>Remembered it?</h3></center>
+					<center><h3>Toch inloggen?</h3></center>
 					<div class="text-center p-t-8 p-b-31">
-						<a href="signup.php">
+						<a href="login.php">
 							Login
 						</a>
 					</div>
