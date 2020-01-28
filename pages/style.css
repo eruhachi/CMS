@@ -7,7 +7,11 @@ header{
 	width: 80%;
 	margin: auto;
 	background-color: white;
+<<<<<<< HEAD
 	font-family: sniglet;
+=======
+	border-radius: 12px;
+>>>>>>> 0e3a0a373965c68482feedc7536287eea0d13c11
 }
 
 ul{
@@ -40,14 +44,19 @@ li:last-child{
 	width: 80%;
 	margin: auto;
 	background-color: white;
+	border-radius: 12px;
 }
 
 footer{
 	width: 80%;
 	margin: auto;
 	background-color: white;
+<<<<<<< HEAD
 }
 @font-face{
 	src: url(../font/Sniglet-Regular.ttf);
 	font-family: sniglet;
+=======
+	border-radius: 12px;
+>>>>>>> 0e3a0a373965c68482feedc7536287eea0d13c11
 }
