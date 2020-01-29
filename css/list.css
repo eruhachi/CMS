@@ -1,6 +1,6 @@
 @font-face {
   font-family: Sniglet;
-  src: url(../font/Sniglet-Regular.ttf);
+  src: url(/CMS/font/Sniglet-Regular.ttf);
 }
 
 *{
@@ -11,11 +11,7 @@
   font-family: Sniglet;
 }
 
-body{
-  background-image: url(/CMS/img/sphere.jpg);
-  background-size:  cover;
-  background-attachment: fixed;
-}
+
 
 .dlibox{
   display: grid;
@@ -33,18 +29,21 @@ ul{
 }
 
 .dli{
-  background: rgba(255, 255, 255, 0.5);
-  border: solid 3px #efefef;
+  background: white;
   border-radius: 5px;
   font-size: 2em;
-  transition: ease-in-out 500ms;
+  transition: ease-in-out 250ms;
 }
 
 .dli:hover{
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.5);
 }
 
-a{
+div a{
   color: rgba(0, 0, 0, 0.7);
   font-weight: 600;
+}
+
+:focus{
+outline: none;
 }

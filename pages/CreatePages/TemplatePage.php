@@ -3,6 +3,7 @@ require "dbh.inc";
 
 
 
+
 if(isset($_GET['id']) && is_numeric($_GET['id'])) {
   $sql = "SELECT * FROM `pages`.`cms_pages` WHERE `page_ID` = " . $_GET['id'];
   $result = $conn->query($sql);
@@ -20,11 +21,17 @@ if(isset($_GET['id']) && is_numeric($_GET['id'])) {
   <head>
     <meta charset="utf-8">
     <title><?php print($page_title); ?></title>
-        <link rel="stylesheet" href="../../css/templatepage.css">
+        <link rel="stylesheet" href="/CMS/css/UniStyle.css">
+        <link rel="stylesheet" href="/CMS/css/templatepage.css">
   </head>
 
 
   <body>
+
+<!--navbar-->
+    <?php
+     include "../homepage/nav.php";
+     ?>
 
 <div class="wrapper">
 
