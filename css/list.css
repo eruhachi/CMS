@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Karla;
+  src: url(../font/Karla-Regular.ttf);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: Karla;
+}
+
+body{
+  background-image: url(/CMS/img/sphere.jpg);
+  background-size:  cover;
+}
+
+.dlibox{
+  display: grid;
+  position: absolute;
+  left: 25vw;
+  top: 20vh;
+}
+
+ul{
+  display: grid;
+  flex-direction: column;
+  width: 50vw;
+  text-align: center;
+  grid-row-gap: 1vh;
+}
+
+.dli{
+  background: rgba(255, 255, 255, 0.5);
+  border: solid 3px #efefef;
+  border-radius: 5px;
+  font-size: 2em;
+}
+
+a{
+  color: black;
+}

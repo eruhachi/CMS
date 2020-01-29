@@ -1,19 +1,46 @@
 <?php
-include "dbh.inc";
+require "dbh.inc";
 
+if(isset($_GET['id'])) {
+  print($_GET['id']).PHP_EOL;
+}
 
-$sql = "SELECT * FROM cms_pages";
+$sql = "SELECT * FROM `pages`.`cms_pages`";
 $result = $conn->query($sql);
 
 
-if ($result->num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-        echo $row["page_title"]. "<br>" . $row["page_content"] . "<br>";
-    }
-} else {
-    echo "0 results";
-}
-$conn->close();
+$url = "/CMS/pages/createpages/TemplatePage.php?id=";
 
+
+$conn->close();
+?>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>All posts</title>
+    <link rel="stylesheet" href="../../css/list.css">
+  </head>
+  <body>
+<div class="dlibox">
+
+<ul>
+<?php
+if ($result->num_rows > 0) {
+    while($row = $result->fetch_assoc()) {
+
+        $_url = '<a href="' . $url . $row['page_ID'] . '"><li class="dli">' . $row['page_title'] . '</li></a><br>';
+        echo $_url;
+    }
+    }else {
+        echo "0 results";
+}
  ?>
+</ul>
+
+</div>
+
+  </body>
+</html>
+

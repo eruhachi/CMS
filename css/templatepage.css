@@ -1,0 +1,47 @@
+@font-face {
+  font-family: Karla;
+  src: url(../font/Karla-Regular.ttf);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: Karla;
+}
+
+body{
+  background-image: url(/CMS/img/sphere.jpg);
+  background-size: cover;
+}
+
+.wrapper{
+  display: grid;
+  grid-row-gap: 5vh;
+  background: rgba(255, 255, 255, 0.5);
+  border: solid 3px #efefef;
+  border-radius: 10px;
+  padding: 5%;
+  top: 20vh;
+  position: absolute;
+  left: 20vw;
+  width: 50vw;
+
+}
+
+h1, p{
+  text-align: center;
+}
+
+h1{
+  font-size: 4em;
+}
+
+p{
+  font-size: 2em;
+}
+
+.textbox{
+
+}
