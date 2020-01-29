@@ -91,16 +91,20 @@ footer{
 	padding: 10px 0 10px 0;
 	display: grid;
 	grid-template-areas: 
-	'copyright button';
+	'1 copyright button';
 }
 
 .copyright{
 	grid-area: copyright;
 }
 
-#button{
+.button{
 	grid-area: button;
-	text-align: right;
+}
+
+.btn{
+	border: none;
+	background-color: turquoise;
 }
 
 @font-face{

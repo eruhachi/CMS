@@ -73,9 +73,18 @@
 
 	<footer>
 		<p class="copyright">made by: blue shell</p>
-		<button onclick="topfunction()">Omhoog</button>
+		<div class="button"><button onclick="topFunction()" class="btn" title="Go to top">Top</button></div>
 	</footer>
 
 </body>
 </html>
 
+<script>
+var mybutton = document.getElementById("btn");
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
