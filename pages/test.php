@@ -6,6 +6,8 @@
 	<title>CMS TEAM BLUE SHELL</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
 </head>
 <body>
 	<header>
@@ -23,51 +25,18 @@
 		<div class="content">
 	
 	<form action="">
-		<label for="title">title</label>
+	    <label for="title"></label>
 		<br>
-		<input type="text" placeholder="title" id="title">
+		<input type="text" placeholder="Title" id="title" maxlength="30" minlength="1">
 		<br>
-		<label>a</label>
 		<br>
-		<input type="text">
+		<input type="text" placeholder="Topic" id="invullen" maxlength="40">
+		<br>
+		<br>
+		<textarea rows="20" placeholder="Text" id="text"></textarea>
 	</form>
 
-	Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores et deleniti eius labore aspernatur veniam nobis velit nihil, laudantium, tempore voluptas? Incidunt temporibus cum aspernatur in non maiores cupiditate voluptas?
-	Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptates eligendi reiciendis, assumenda blanditiis similique, exercitationem dolorem itaque ratione voluptatem consectetur, maxime saepe eaque aspernatur cum commodi id dolore ullam.
-	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam soluta exercitationem neque est quaerat corrupti eligendi eos a voluptatem nobis optio, excepturi, deleniti sint magnam, voluptate veritatis itaque deserunt iure.
-	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo consequuntur aut rem expedita nesciunt consequatur deserunt pariatur quia molestias nemo ratione vero, cupiditate, debitis, voluptas nulla alias tempore enim magni?
-	Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus obcaecati rerum libero debitis nemo quo eligendi numquam, soluta ullam dolorum sequi id aperiam illo iure a amet officiis iusto nihil!
-	Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet accusamus modi dolorem, aut amet eius culpa quam deserunt, voluptate odio ex inventore optio voluptas voluptatum in nam asperiores ipsam hic!
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla recusandae totam consequatur obcaecati earum officia eaque quibusdam sapiente inventore! Mollitia labore aliquid eligendi debitis eius tempore blanditiis temporibus quod voluptates.
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores et deleniti eius labore aspernatur veniam nobis velit nihil, laudantium, tempore voluptas? Incidunt temporibus cum aspernatur in non maiores cupiditate voluptas?
-	Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptates eligendi reiciendis, assumenda blanditiis similique, exercitationem dolorem itaque ratione voluptatem consectetur, maxime saepe eaque aspernatur cum commodi id dolore ullam.
-	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam soluta exercitationem neque est quaerat corrupti eligendi eos a voluptatem nobis optio, excepturi, deleniti sint magnam, voluptate veritatis itaque deserunt iure.
-	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo consequuntur aut rem expedita nesciunt consequatur deserunt pariatur quia molestias nemo ratione vero, cupiditate, debitis, voluptas nulla alias tempore enim magni?
-	Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus obcaecati rerum libero debitis nemo quo eligendi numquam, soluta ullam dolorum sequi id aperiam illo iure a amet officiis iusto nihil!
-	Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet accusamus modi dolorem, aut amet eius culpa quam deserunt, voluptate odio ex inventore optio voluptas voluptatum in nam asperiores ipsam hic!
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla recusandae totam consequatur obcaecati earum officia eaque quibusdam sapiente inventore! Mollitia labore aliquid eligendi debitis eius tempore blanditiis temporibus quod voluptates.
-	Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores et deleniti eius labore aspernatur veniam nobis velit nihil, laudantium, tempore voluptas? Incidunt temporibus cum aspernatur in non maiores cupiditate voluptas?
-	Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptates eligendi reiciendis, assumenda blanditiis similique, exercitationem dolorem itaque ratione voluptatem consectetur, maxime saepe eaque aspernatur cum commodi id dolore ullam.
-	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam soluta exercitationem neque est quaerat corrupti eligendi eos a voluptatem nobis optio, excepturi, deleniti sint magnam, voluptate veritatis itaque deserunt iure.
-	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo consequuntur aut rem expedita nesciunt consequatur deserunt pariatur quia molestias nemo ratione vero, cupiditate, debitis, voluptas nulla alias tempore enim magni?
-	Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus obcaecati rerum libero debitis nemo quo eligendi numquam, soluta ullam dolorum sequi id aperiam illo iure a amet officiis iusto nihil!
-	Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet accusamus modi dolorem, aut amet eius culpa quam deserunt, voluptate odio ex inventore optio voluptas voluptatum in nam asperiores ipsam hic!
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla recusandae totam consequatur obcaecati earum officia eaque quibusdam sapiente inventore! Mollitia labore aliquid eligendi debitis eius tempore blanditiis temporibus quod voluptates.
-	Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores et deleniti eius labore aspernatur veniam nobis velit nihil, laudantium, tempore voluptas? Incidunt temporibus cum aspernatur in non maiores cupiditate voluptas?
-	Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptates eligendi reiciendis, assumenda blanditiis similique, exercitationem dolorem itaque ratione voluptatem consectetur, maxime saepe eaque aspernatur cum commodi id dolore ullam.
-	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam soluta exercitationem neque est quaerat corrupti eligendi eos a voluptatem nobis optio, excepturi, deleniti sint magnam, voluptate veritatis itaque deserunt iure.
-	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo consequuntur aut rem expedita nesciunt consequatur deserunt pariatur quia molestias nemo ratione vero, cupiditate, debitis, voluptas nulla alias tempore enim magni?
-	Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus obcaecati rerum libero debitis nemo quo eligendi numquam, soluta ullam dolorum sequi id aperiam illo iure a amet officiis iusto nihil!
-	Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet accusamus modi dolorem, aut amet eius culpa quam deserunt, voluptate odio ex inventore optio voluptas voluptatum in nam asperiores ipsam hic!
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla recusandae totam consequatur obcaecati earum officia eaque quibusdam sapiente inventore! Mollitia labore aliquid eligendi debitis eius tempore blanditiis temporibus quod voluptates.
-	Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores et deleniti eius labore aspernatur veniam nobis velit nihil, laudantium, tempore voluptas? Incidunt temporibus cum aspernatur in non maiores cupiditate voluptas?
-	Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptates eligendi reiciendis, assumenda blanditiis similique, exercitationem dolorem itaque ratione voluptatem consectetur, maxime saepe eaque aspernatur cum commodi id dolore ullam.
-	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam soluta exercitationem neque est quaerat corrupti eligendi eos a voluptatem nobis optio, excepturi, deleniti sint magnam, voluptate veritatis itaque deserunt iure.
-	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo consequuntur aut rem expedita nesciunt consequatur deserunt pariatur quia molestias nemo ratione vero, cupiditate, debitis, voluptas nulla alias tempore enim magni?
-	Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus obcaecati rerum libero debitis nemo quo eligendi numquam, soluta ullam dolorum sequi id aperiam illo iure a amet officiis iusto nihil!
-	Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet accusamus modi dolorem, aut amet eius culpa quam deserunt, voluptate odio ex inventore optio voluptas voluptatum in nam asperiores ipsam hic!
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla recusandae totam consequatur obcaecati earum officia eaque quibusdam sapiente inventore! Mollitia labore aliquid eligendi debitis eius tempore blanditiis temporibus quod voluptates.
- 
+
 	</div>
 	</div>
 
