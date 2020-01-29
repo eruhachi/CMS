@@ -33,7 +33,7 @@
 		<input type="text" placeholder="Topic" id="invullen" maxlength="40">
 		<br>
 		<br>
-		<textarea rows="20" placeholder="Text" id="text"></textarea>
+		<textarea rows="25" placeholder="Text" id="text"></textarea>
 	</form>
 
 
