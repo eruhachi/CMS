@@ -23,13 +23,14 @@
 		<div class="content">
 	
 	<form action="">
-		<label for="title">title</label>
-		<br>
+		<label for="title"></label>
 		<input type="text" placeholder="title" id="title">
 		<br>
-		<label>a</label>
 		<br>
-		<input type="text" id="invullen">
+		<input type="text" placeholder="subject" id="invullen">
+		<br>
+		<br>
+		<input type="text" id="text">
 	</form>
 
 	Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores et deleniti eius labore aspernatur veniam nobis velit nihil, laudantium, tempore voluptas? Incidunt temporibus cum aspernatur in non maiores cupiditate voluptas?
