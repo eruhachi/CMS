@@ -29,12 +29,14 @@
 		<br>
 		<input type="text" placeholder="Title" id="title">
 		<br>
-		<label>a</label>
 		<br>
-		<input type="text" id="invullen">
+		<input type="text" placeholder="subject" id="invullen">
+		<br>
+		<br>
+		<input type="text" id="text">
 	</form>
 
-		
+
 	</div>
 	</div>
 
