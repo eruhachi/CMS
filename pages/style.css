@@ -112,6 +112,9 @@ footer{
 	width: 50%;
 	margin-left: 25%;
 	margin-right: 25%;
+	src: url(../font/Sniglet-Regular.ttf);
+	font-size: 30px;
+	text-align: center;
 }
 
 #invullen{
