@@ -25,7 +25,7 @@
 		<div class="content">
 	
 	<form action="">
-		<label for="title">title</label>
+	    <label for="title"></label>
 		<br>
 		<input type="text" placeholder="Title" id="title">
 		<br>
