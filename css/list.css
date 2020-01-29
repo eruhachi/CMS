@@ -1,6 +1,8 @@
 @font-face {
+
   font-family: Sniglet;
   src: url(/CMS/font/Sniglet-Regular.ttf);
+
 }
 
 *{
@@ -12,6 +14,10 @@
 }
 
 
+body{
+  background-image: url(/CMS/img/sphere.jpg);
+  background-size:  cover;
+}
 
 .dlibox{
   display: grid;
