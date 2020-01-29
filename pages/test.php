@@ -25,15 +25,14 @@
 		<div class="content">
 	
 	<form action="">
-		<label for="title">title</label>
 		<br>
-		<input type="text" placeholder="Title" id="title">
-		<br>
-		<br>
-		<input type="text" placeholder="subject" id="invullen">
+		<input type="text" placeholder="Title" id="title" maxlength="30" minlength="1">
 		<br>
 		<br>
-		<input type="text" id="text">
+		<input type="text" placeholder="Topic" id="invullen" maxlength="40">
+		<br>
+		<br>
+		<textarea rows="20" placeholder="Text" id="text"></textarea>
 	</form>
 
 
