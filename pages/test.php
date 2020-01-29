@@ -25,6 +25,7 @@
 		<div class="content">
 	
 	<form action="">
+	    <label for="title"></label>
 		<br>
 		<input type="text" placeholder="Title" id="title" maxlength="30" minlength="1">
 		<br>
