@@ -107,3 +107,15 @@ footer{
 	src: url(../font/Sniglet-Regular.ttf);
 	font-family: sniglet;
 }
+
+#title{
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+#invullen{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
