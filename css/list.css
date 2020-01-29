@@ -43,7 +43,3 @@ div a{
   color: rgba(0, 0, 0, 0.7);
   font-weight: 600;
 }
-
-:focus{
-outline: none;
-}
