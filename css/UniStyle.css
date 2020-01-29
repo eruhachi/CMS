@@ -16,5 +16,7 @@
 }
 
 body{
-  background-color: #efefef;
+  background-image: url(/CMS/pages/Login&register/images/bg-01.jpg);
+  background-size:  cover;
+  background-attachment: fixed;
 }

@@ -1,6 +1,8 @@
 @font-face {
-  font-family: Karla;
-  src: url(../font/Karla-Regular.ttf);
+
+  font-family: Sniglet;
+  src: url(/CMS/font/Sniglet-Regular.ttf);
+
 }
 
 *{
@@ -8,8 +10,9 @@
   margin: 0;
   text-decoration: none;
   list-style: none;
-  font-family: Karla;
+  font-family: Sniglet;
 }
+
 
 body{
   background-image: url(/CMS/img/sphere.jpg);
@@ -32,12 +35,21 @@ ul{
 }
 
 .dli{
-  background: rgba(255, 255, 255, 0.5);
-  border: solid 3px #efefef;
+  background: white;
   border-radius: 5px;
   font-size: 2em;
+  transition: ease-in-out 250ms;
 }
 
-a{
-  color: black;
+.dli:hover{
+  background: rgba(255, 255, 255, 0.5);
+}
+
+div a{
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+}
+
+:focus{
+outline: none;
 }

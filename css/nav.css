@@ -1,0 +1,35 @@
+/*made by Gwyneth*/
+/*regular navbar*/
+nav{
+  position: fixed;
+  text-align: center;
+  background-color: #e0e3e7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 8vh;
+  width: 100%;
+  box-shadow: #787878 0.1px 0.1px 50px;
+  z-index: 10;
+}
+
+.nav-links{
+display: flex;
+justify-content: space-evenly;
+width: 80%;
+flex-direction: row;
+}
+
+.nav-links a{
+  color: #522c55;
+  font-size: 24px;
+}
+
+
+a:hover{
+color: black;
+}
+
+p, h1:hover{
+cursor: default;
+}

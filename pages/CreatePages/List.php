@@ -20,9 +20,21 @@ $conn->close();
   <head>
     <meta charset="utf-8">
     <title>All posts</title>
+<<<<<<< HEAD
+    <link rel="stylesheet" href="/CMS/css/UniStyle.css">
+    <link rel="stylesheet" href="/CMS/css/list.css">
+  </head>
+  <body>
+
+<?php
+include "../homepage/nav.php";
+ ?>
+
+=======
     <link rel="stylesheet" href="../../css/list.css">
   </head>
   <body>
+>>>>>>> master
 <div class="dlibox">
 
 <ul>
@@ -41,6 +53,12 @@ if ($result->num_rows > 0) {
 
 </div>
 
+<<<<<<< HEAD
+
+  </body>
+</html>
+=======
   </body>
 </html>
 
+>>>>>>> master
