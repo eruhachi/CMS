@@ -44,7 +44,7 @@ width: 50%;
 .topbutton{
   z-index: 10;
   display: block;
-  background-color: #efefef;
+  background-image: linear-gradient(to right, #67a6ed, #8f72f2);
   width: 70px;
   height: 70px;
   position: fixed;
@@ -63,6 +63,7 @@ width: 50%;
 .topbutton:hover{
 cursor: pointer;
 background-color: rgba(255, 255, 255, 0.7);
+  background-image: linear-gradient(to right, #8f72f2, #67a6ed);
 }
 
 a:hover{
