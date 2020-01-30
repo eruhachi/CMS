@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Dashboard</title>
     <link rel="stylesheet" href="/CMS/css/UniStyle.css">
-    <link rel="stylesheet" href="/CMS/css/userHomepage.css">
+    <link rel="stylesheet" href="/CMS/css/userDashboard.css">
   </head>
   <body>
  <?php

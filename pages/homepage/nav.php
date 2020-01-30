@@ -1,4 +1,7 @@
 <!--navigation-->
+<?php
+require "../Login&register/includes/dbh.inc.php";
+ ?>
 
 <head>
     <link rel="stylesheet" href="/CMS/css/UniStyle.css">
@@ -9,8 +12,15 @@
  <nav id="idNav">
 
   <ul class="nav-links">
-    <b><a class="Home" href="/CMS/index.php"><li>Home</li></a></b>
-    <a href="/CMS/pages/homepage/userHomepage.php"><li>Dashboard</li></a>
+<?php
+// WARNING: nog afmaken, dashboard based on logged in or not
+//if () {
+        echo '<b><a href="/CMS/pages/homepage/userDashboard.php"><li>Dashboard</li></a></b>';
+//      }
+
+
+        //<a href="/CMS/pages/homepage/userDashboard.php"><li>Dashboard</li></a>
+?>
     <a href="/CMS/pages/createpages/list.php"><li>Posts</li></a>
   </ul>
 <a href="/CMS/pages/Login&register/login.php" class="loginButton">Login</a>
