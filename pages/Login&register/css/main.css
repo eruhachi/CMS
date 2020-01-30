@@ -7,22 +7,22 @@
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+  src: url('../fonts/poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
   font-family: Poppins-Medium;
-  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+  src: url('../fonts/poppins/Poppins-Medium.ttf');
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+  src: url('../fonts/poppins/Poppins-Bold.ttf');
 }
 
 @font-face {
   font-family: Poppins-SemiBold;
-  src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
+  src: url('../fonts/poppins/Poppins-SemiBold.ttf');
 }
 
 
@@ -32,8 +32,8 @@
 [ RESTYLE TAG ]*/
 
 * {
-	margin: 0px; 
-	padding: 0px; 
+	margin: 0px;
+	padding: 0px;
 	box-sizing: border-box;
 }
 
@@ -164,7 +164,7 @@ iframe {
 }
 
 .container-login100 {
-  width: 100%;  
+  width: 100%;
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -182,7 +182,7 @@ iframe {
 
 .wrap-login100 {
   width: 500px;
-  background: #fff;
+  background:rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   overflow: hidden;
 }
@@ -294,11 +294,12 @@ iframe {
 }
 
 .input100:focus + .focus-input100::after {
-  color: #a64bf4;
+  color: #4586BE;
 }
 
 .has-val.input100 + .focus-input100::after {
-  color: #a64bf4;
+  color: #4586BE;
+
 }
 
 
@@ -336,10 +337,10 @@ iframe {
   width: 300%;
   height: 100%;
   background: #a64bf4;
-  background: -webkit-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
-  background: -o-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
-  background: -moz-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
-  background: linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
+  background: -webkit-linear-gradient(right, #4586BE, white, #4586BE, white);
+  background: -o-linear-gradient(right, #4586BE, white, #4586BE, white);
+  background: -moz-linear-gradient(right, #4586BE, white, #4586BE, white);
+  background: linear-gradient(right, #4586BE, white, #4586BE, white);
   top: 0;
   left: -100%;
 
@@ -465,6 +466,25 @@ iframe {
   background-color: #333333;
 }
 
+.signuperror {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  font-size: 20px;
+}
+
+.registersuccess {
+  color: green;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  font-size: 20px;
+  border: red;
+
+}
+
+
 /*//////////////////////////////////////////////////////////////////
 [ Responsive ]*/
 
@@ -473,4 +493,4 @@ iframe {
     padding-left: 15px;
     padding-right: 15px;
   }
-} 
+}
