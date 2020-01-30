@@ -1,11 +1,8 @@
-/*made by Gwyneth*/
-/*regular navbar*/
 nav{
-  position: fixed;
+  position: absolute;
   text-align: center;
   background-color: #e0e3e7;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   min-height: 8vh;
   width: 100%;
@@ -14,10 +11,10 @@ nav{
 }
 
 .nav-links{
-display: flex;
+display: inline-flex;
+flex-direction: row;
 justify-content: space-evenly;
 width: 80%;
-flex-direction: row;
 }
 
 .nav-links a{
@@ -25,6 +22,29 @@ flex-direction: row;
   font-size: 24px;
 }
 
+.topbutton{
+  z-index: 10;
+  display: block;
+  background-color: #efefef;
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  border-radius: 10px;
+  bottom: 2vh;
+  right: 2vw;
+  transition: ease-in-out 250ms;
+}
+
+.topbutton img{
+  position: fixed;
+  height: 70px;
+  width: 70px;
+}
+
+.topbutton:hover{
+cursor: pointer;
+background-color: rgba(255, 255, 255, 0.7);
+}
 
 a:hover{
 color: black;
