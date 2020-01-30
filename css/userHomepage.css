@@ -37,10 +37,7 @@ form input{
 
 .wrapper h1{
   font-size: 3em;
-  color: white;
-  background-image: linear-gradient(to right, #67a6ed, #8f72f2);
-  border: solid #8f72f2 3px;
-  border-radius: 50px;
+  color: black;
 }
 
 .Submit{
@@ -55,4 +52,7 @@ form input{
   font-weight: 600;
 }
 
-.submi
+.Submit:hover{
+  cursor: pointer;
+  background-image: linear-gradient(to left, #67a6ed, #8f72f2);
+}
