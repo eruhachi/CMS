@@ -23,7 +23,7 @@
 		<div class="login">login</div>
 		<div class="list">pages</div>
 		<div class="content">
-	
+
 	<form action="">
 	    <label for="title"></label>
 		<br>
@@ -33,7 +33,7 @@
 		<textarea rows="25" placeholder="Text" id="text"></textarea>
 		<br>
 		<br>
-		<button type="button" class="submitbutton">Submit</button> 
+		<button type="button" class="submitbutton">Submit</button>
 	</form>
 
 

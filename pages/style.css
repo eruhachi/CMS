@@ -54,7 +54,7 @@ li:last-child:hover > a{
 	margin-bottom: 10px;
 	border-radius: 12px;
 	display: grid;
-	grid-template-areas: 
+	grid-template-areas:
 	'login list'
 	'content content';
 	grid-gap: 10px;
@@ -92,7 +92,7 @@ footer{
 	text-align: center;
 	padding: 10px 0 10px 0;
 	display: grid;
-	grid-template-areas: 
+	grid-template-areas:
 	'1 copyright button';
 }
 

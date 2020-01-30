@@ -1,0 +1,54 @@
+@font-face {
+  font-family: Sniglet;
+  src: url(/CMS/font/Sniglet-Regular.ttf);
+
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: Sniglet;
+}
+
+
+body{
+  background-image: url(/CMS/img/sphere.jpg);
+  background-size:  cover;
+}
+
+.dlibox{
+  display: grid;
+  position: absolute;
+  left: 25vw;
+  top: 20vh;
+}
+
+ul{
+  display: grid;
+  flex-direction: column;
+  width: 50vw;
+  text-align: center;
+  grid-row-gap: 1vh;
+}
+
+.dli{
+  background: white;
+  border-radius: 5px;
+  font-size: 2em;
+  transition: ease-in-out 250ms;
+}
+
+.dli:hover{
+  background: rgba(255, 255, 255, 0.5);
+}
+
+div a{
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+}
+
+:focus{
+outline: none;
+}
