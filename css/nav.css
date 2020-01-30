@@ -52,6 +52,7 @@ width: 50%;
   bottom: 2vh;
   right: 2vw;
   transition: ease-in-out 250ms;
+  background-image: linear-gradient(to right, #67a6ed, #8f72f2);
 }
 
 .topbutton img{
@@ -62,7 +63,8 @@ width: 50%;
 
 .topbutton:hover{
 cursor: pointer;
-background-color: rgba(255, 255, 255, 0.7);
+background-image: linear-gradient(to right, #8f72f2, #67a6ed);
+
 }
 
 a:hover{
