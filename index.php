@@ -7,6 +7,9 @@
   </head>
 
   <body>
+    <?php
+    include "pages/homepage/nav.php";
+     ?>
 
 
 

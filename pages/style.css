@@ -1,0 +1,141 @@
+body {
+	background-image: url(img/bg-01.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header{
+	width: 80%;
+	margin: auto;
+	margin-bottom: 10px;
+	background-color: white;
+	font-family: sniglet;
+	border-radius: 12px;
+	font-size: 20px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	text-align: left;
+	padding: 10px 15px;
+    text-decoration: none;
+}
+
+li a:hover{
+	background-color: aqua;
+}
+
+li:first-child:hover > a{
+	border-radius: 12px 0 0 12px;
+}
+
+li:last-child{
+	float: right;
+}
+
+li:last-child:hover > a{
+	border-radius: 0 12px 12px 0;
+}
+
+.wrapper{
+	width: 80%;
+	margin: auto;
+	margin-bottom: 10px;
+	border-radius: 12px;
+	display: grid;
+	grid-template-areas: 
+	'login list'
+	'content content';
+	grid-gap: 10px;
+}
+
+.login{
+	grid-area: login;
+	padding: 20px;
+	background-color: white;
+	border-radius: 12px;
+
+}
+
+.list{
+	grid-area: list;
+	padding: 20px;
+	background-color: white;
+	border-radius: 12px;
+}
+
+.content{
+	grid-area: content;
+	padding: 20px;
+	background-color: white;
+	border-radius: 12px;
+}
+
+footer{
+	width: 80%;
+	margin: auto;
+	background-color: white;
+	border-radius: 12px;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	display: grid;
+	grid-template-areas: 
+	'1 copyright button';
+}
+
+.copyright{
+	grid-area: copyright;
+}
+
+.button{
+	grid-area: button;
+}
+
+.btn{
+	border: none;
+	background-color: turquoise;
+}
+
+@font-face{
+	src: url(../font/Sniglet-Regular.ttf);
+	font-family: sniglet;
+}
+
+#title{
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	src: url(../font/Sniglet-Regular.ttf);
+	font-size: 30px;
+	text-align: center;
+}
+
+#invullen{
+	width: 65%;
+	margin-left: 17.5%;
+	margin-right: 17.5%;
+	font-size: 20px;
+	text-align: center;
+	max-width: 65%;
+}
+
+#text{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10px;
+	font-size: 20px;
+	text-align: left;
+	padding: 5px;
+
+}
