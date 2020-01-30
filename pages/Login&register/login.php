@@ -41,6 +41,24 @@
 					<span class="login100-form-title p-b-49">
 						Login
 					</span>
+					<?php
+	   				if (isset($_GET['signup'])) { 
+					if($_GET['signup'] == "success") { 
+		        	echo '<h2 class="signupsuccess">Je kunt nu inloggen</h2>';
+			         }
+			        }
+				    if (isset($_GET['error'])) { 
+ 				    if($_GET['error'] == "emptyfields") { 
+					echo '<h2 class="signuperror">Vul alle velden in</h2>';
+					 }
+					else if($_GET["error"] == "nouser") {
+					echo '<h2 class="signuperror">Verkeerde gebruikersnaam</h2>';
+					}
+					else if($_GET["error"] == "wrongpwd") {
+						echo '<h2 class="signuperror">Verkeerde wachtwoord</h2>';
+					}
+					}
+				    ?>
 					<div class="wrap-input100 validate-input m-b-23" data-validate = "Username is reauired">
 						<span class="label-input100">Username</span>
 						<input class="input100" type="text" name="mailuid" placeholder="Type your username">

@@ -465,6 +465,25 @@ iframe {
   background-color: #333333;
 }
 
+.signuperror { 
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  font-size: 20px;
+}
+
+.registersuccess {
+  color: green;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  font-size: 20px;
+  border: red;
+
+}
+
+
 /*//////////////////////////////////////////////////////////////////
 [ Responsive ]*/
 
