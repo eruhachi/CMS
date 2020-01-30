@@ -6,12 +6,15 @@ require "dbh.php";
 
 
 
+$page_id = $_GET["id"];
+
+
 $title = $_POST['titel'];
 $page_content = $_POST['content'];
 
   if($page_content && $title){
 
-    $sql = "UPDATE cms_pages SET page_content='$page_content', page_title='$title' WHERE page_ID=";
+    $sql = "UPDATE cms_pages SET page_content='$page_content', page_title='$title' WHERE page_ID=$page_id";
 
     if ($conn->query($sql) === TRUE) {
         echo "Record updated successfully";
@@ -22,10 +25,10 @@ $page_content = $_POST['content'];
     $conn->close();
       
   }else{
-          print("error", "Provide Data in the Textbox");
+          print("error: Provide Data in the Textbox");
   }
 
-
+x
 ?>
 
 <!DOCTYPE html>
@@ -40,13 +43,17 @@ $page_content = $_POST['content'];
 <form action="">
 	    <label for="title"></label>
 		<br>
-		<input type="text" placeholder="Title" id="title" maxlength="30" minlength="1">
+		<input type="text" placeholder="Title" name="titel" id="title" maxlength="30" minlength="1">
 		<br>
 		<br>
-		<textarea rows="25" placeholder="Text" id="text"></textarea>
+		<textarea rows="25" placeholder="Text" name="content" id="text"></textarea>
 		<br>
 		<br>
-		<button type="button" class="submitbutton">Submit</button>
-	</form>  
+        <input type="submit" value="Submit" class="submitbutton">
+    </form>  
+    
+    <?php echo $_GET["id"]; ?>
+
 </body>
 </html>
+
