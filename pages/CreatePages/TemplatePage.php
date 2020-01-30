@@ -2,6 +2,7 @@
 require "dbh.php";
 
 
+
 if(isset($_GET['id']) && is_numeric($_GET['id'])) {
   $sql = "SELECT * FROM `pages`.`cms_pages` WHERE `page_ID` = " . $_GET['id'];
   $result = $conn->query($sql);
@@ -25,6 +26,11 @@ if(isset($_GET['id']) && is_numeric($_GET['id'])) {
 
 
   <body>
+<!--navbar-->
+    <?php
+     include "../homepage/nav.php";
+     ?>
+
 <!--navbar-->
     <?php
      include "../homepage/nav.php";
