@@ -182,7 +182,7 @@ iframe {
 
 .wrap-login100 {
   width: 500px;
-  background: #fff;
+  background:rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   overflow: hidden;
 }
@@ -294,11 +294,11 @@ iframe {
 }
 
 .input100:focus + .focus-input100::after {
-  color: #a64bf4;
+  color: #4586BE;
 }
 
 .has-val.input100 + .focus-input100::after {
-  color: #a64bf4;
+  color: #4586BE;
 }
 
 
@@ -336,10 +336,10 @@ iframe {
   width: 300%;
   height: 100%;
   background: #a64bf4;
-  background: -webkit-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
-  background: -o-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
-  background: -moz-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
-  background: linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
+  background: -webkit-linear-gradient(right, #4586BE, white, #4586BE, white);
+  background: -o-linear-gradient(right, #4586BE, white, #4586BE, white);
+  background: -moz-linear-gradient(right, #4586BE, white, #4586BE, white);
+  background: linear-gradient(right, #4586BE, white, #4586BE, white);
   top: 0;
   left: -100%;
 
@@ -464,6 +464,25 @@ iframe {
   color: #fff;
   background-color: #333333;
 }
+
+.signuperror { 
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  font-size: 20px;
+}
+
+.registersuccess {
+  color: green;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  font-size: 20px;
+  border: red;
+
+}
+
 
 /*//////////////////////////////////////////////////////////////////
 [ Responsive ]*/

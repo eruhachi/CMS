@@ -1,0 +1,87 @@
+.body{
+    background-image: url("../media/");
+}
+
+.wrapper {
+    background-color: rgb(187, 187, 187);
+    margin-right: auto; 
+    margin-left:  auto;     
+    width: 90%; 
+    box-shadow:5px 10px 5px  rgba(0, 0, 0, 0.6);    
+  }
+
+  .header {
+    overflow: hidden;
+    background-color: #585858;
+    padding: 20px 10px;
+    box-shadow:5px 10px 5px  rgba(0, 0, 0, 0.6);
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: rgb(100, 100, 100);
+    color: black;
+  }
+  
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .header-right {
+    float: ;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
+  }
+
+  .column-45{
+    float: left;
+    width: 45%;
+    padding: 20px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  
+  .xlarge-font {
+    font-size: 64px
+  }
+
+  img {
+    height: auto;
+    max-width: 100%;
+    margin: 20px;     
+    box-shadow:5px 10px 5px  rgba(0, 0, 0, 0.6);
+  }
