@@ -11,9 +11,9 @@
   <ul class="nav-links">
     <b><a class="Home" href="/CMS/index.php"><li>Home</li></a></b>
     <a href="#"><li>Dashboard</li></a>
-    <a href="/CMS/pages/createpages/list.php"><li>Posts</a>
-    <a href="/CMS/pages/Login&register/login.php"><li>Login</a>
+    <a href="/CMS/pages/createpages/list.php"><li>Posts</li></a>
   </ul>
+<a href="/CMS/pages/Login&register/login.php" class="loginButton">Login</a>
 </nav>
 
 <a href="#idNav"><div class="topbutton">
