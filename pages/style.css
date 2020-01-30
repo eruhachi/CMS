@@ -65,6 +65,7 @@ li:last-child:hover > a{
 	padding: 20px;
 	background-color: white;
 	border-radius: 12px;
+	font-family: sniglet;
 
 }
 
@@ -73,6 +74,7 @@ li:last-child:hover > a{
 	padding: 20px;
 	background-color: white;
 	border-radius: 12px;
+	font-family: sniglet;
 }
 
 .content{
@@ -116,7 +118,7 @@ footer{
 	width: 50%;
 	margin-left: 25%;
 	margin-right: 25%;
-	src: url(../font/Sniglet-Regular.ttf);
+	font-family: sniglet;
 	font-size: 30px;
 	text-align: center;
 }
@@ -128,6 +130,7 @@ footer{
 	font-size: 20px;
 	text-align: center;
 	max-width: 65%;
+	font-family: sniglet;
 }
 
 #text{
@@ -137,5 +140,23 @@ footer{
 	font-size: 20px;
 	text-align: left;
 	padding: 5px;
+	font-family: sniglet;
+}
 
+.submitbutton{
+	text-align: center;
+	width: 10%;
+	margin-left: 45%;
+	margin-right: 45%;
+	height: 40px;
+	background-color: white;
+	font-family: sniglet;
+}
+
+.submitbutton:hover{
+	background-color: aqua;
+}
+
+.copyright{
+	font-family: sniglet;
 }

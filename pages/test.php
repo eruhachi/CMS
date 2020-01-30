@@ -30,10 +30,10 @@
 		<input type="text" placeholder="Title" id="title" maxlength="30" minlength="1">
 		<br>
 		<br>
-		<input type="text" placeholder="Topic" id="invullen" maxlength="40">
-		<br>
-		<br>
 		<textarea rows="25" placeholder="Text" id="text"></textarea>
+		<br>
+		<br>
+		<button type="button" class="submitbutton">Submit</button> 
 	</form>
 
 
@@ -41,8 +41,7 @@
 	</div>
 
 	<footer>
-		<p class="copyright">made by: blue shell</p>
-		<div class="button"><button onclick="topFunction()" class="btn" title="Go to top">Top</button></div>
+		<p class="copyright">© made by: blue shell</p>
 	</footer>
 
 </body>
