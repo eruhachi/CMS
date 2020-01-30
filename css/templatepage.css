@@ -21,11 +21,9 @@
   position: absolute;
   left: 20vw;
   width: 50vw;
+  text-align: center;
 }
 
-
-
-}
 
 h1, p{
   text-align: center;
