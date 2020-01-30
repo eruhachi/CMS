@@ -5,15 +5,26 @@ require "dbh.php";
 //require "../Login&register/includes/dbh.inc.php";
 
 
-$sql = "UPDATE cms_pages SET page_content='', page_title='' WHERE page_ID=";
 
-if ($conn->query($sql) === TRUE) {
-    echo "Record updated successfully";
-} else {
-    echo "Error updating record: " . $conn->error;
-}
+$title = $_POST['titel'];
+$page_content = $_POST['content'];
 
-$conn->close();
+  if($page_content && $title){
+
+    $sql = "UPDATE cms_pages SET page_content='$page_content', page_title='$title' WHERE page_ID=";
+
+    if ($conn->query($sql) === TRUE) {
+        echo "Record updated successfully";
+    } else {
+        echo "Error updating record: " . $conn->error;
+    }
+    
+    $conn->close();
+      
+  }else{
+          print("error", "Provide Data in the Textbox");
+  }
+
 
 ?>
 
