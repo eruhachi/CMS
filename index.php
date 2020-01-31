@@ -8,7 +8,7 @@
   </head>
   <body>
 <?php
-include "pages/homepage/visitorNav.php";
+include "pages/homepage/nav.php";
  ?>
 
   <div class="wrapper">

@@ -33,7 +33,7 @@
 </head>
 <body>
 	<?php
-include "../homepage/loginNav.php";
+include "../homepage/nav.php";
 	 ?>
 
 <form action="includes/login.inc.php" method="post">

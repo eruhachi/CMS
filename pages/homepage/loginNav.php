@@ -13,12 +13,13 @@ require "../Login&register/includes/dbh.inc.php";
 
   <ul class="nav-links">
     <?php
-    // WARNING: nog afmaken, dashboard based on logged in or not
-    //if () {
-            //echo '<b><a href="/CMS/pages/homepage/userDashboard.php"><li>Dashboard</li></a></b>';
-    //      }
+    require "../Login&register/includes/login.inc.php";
 
-         echo '<a href="/CMS/index.php"><li>Dashboard</li></a>';
+    if ($pwdCheck == true) {
+            echo '<b><a href="/CMS/pages/homepage/userDashboard.php"><li>Dashboard</li></a></b>';
+          }else{
+                     echo '<a href="/CMS/index.php"><li>Dashboard</li></a>';
+          }
     ?>
     <a href="/CMS/pages/createpages/list.php"><li>Posts</li></a>
   </ul>
