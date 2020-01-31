@@ -14,15 +14,15 @@
     <?php
 
 
-    /*if ($pwdCheck == true) {
+    if (isset($_SESSION['userId']) && isset($_SESSION['userUid'])) {
             echo '<b><a href="/CMS/pages/homepage/userDashboard.php"><li>Dashboard</li></a></b>';
           }else{
                      echo '<a href="/CMS/index.php"><li>Dashboard</li></a>';
-          }*/
+          }
 
 
     ?>
-    <b><a href="/CMS/pages/homepage/userDashboard.php"><li>Dashboard</li></a></b>
+
     <a href="/CMS/pages/createpages/list.php"><li>Posts</li></a>
   </ul>
 <a href="/CMS/pages/Login&register/login.php" class="login_Button">Login</a>
