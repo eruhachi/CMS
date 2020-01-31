@@ -100,15 +100,6 @@ footer{
 	grid-area: copyright;
 }
 
-.button{
-	grid-area: button;
-}
-
-.btn{
-	border: none;
-	background-color: turquoise;
-}
-
 @font-face{
 	src: url(../font/Sniglet-Regular.ttf);
 	font-family: sniglet;

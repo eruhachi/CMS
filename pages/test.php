@@ -10,14 +10,9 @@
 
 </head>
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="test.php">Home</a></li>
-				<li><a href="hoi.html">User</a></li>
-			</ul>
-		</nav>
-	</header>
+		<?php
+    	include "homepage/nav.php";
+    	 ?>
 
 	<div class="wrapper">
 		<div class="login">login</div>
