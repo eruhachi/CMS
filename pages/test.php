@@ -10,14 +10,9 @@
 
 </head>
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="test.php">Home</a></li>
-				<li><a href="hoi.html">User</a></li>
-			</ul>
-		</nav>
-	</header>
+	<?php
+    include "pages/homepage/nav.php";
+     ?>
 
 	<div class="wrapper">
 		<div class="login">login</div>
@@ -42,7 +37,6 @@
 
 	<footer>
 		<p class="copyright">made by: blue shell</p>
-		<div class="button"><button onclick="topFunction()" class="btn" title="Go to top">Top</button></div>
 	</footer>
 
 </body>

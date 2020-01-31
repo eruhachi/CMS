@@ -89,22 +89,10 @@ footer{
 	border-radius: 12px;
 	text-align: center;
 	padding: 10px 0 10px 0;
-	display: grid;
-	grid-template-areas: 
-	'1 copyright button';
 }
 
 .copyright{
-	grid-area: copyright;
-}
-
-.button{
-	grid-area: button;
-}
-
-.btn{
-	border: none;
-	background-color: turquoise;
+	text-align: center;
 }
 
 @font-face{
