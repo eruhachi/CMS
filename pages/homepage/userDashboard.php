@@ -9,6 +9,7 @@
   <body>
  <?php
 include "nav.php";
+require "../CreatePages/pageCreate.php";
   ?>
 
   <div class="wrapper">
@@ -16,10 +17,24 @@ include "nav.php";
 
 
 <div class="formbox">
-<form class="PageCreateTitle" action="/CMS/createpage/"  method="post"><input type="text" name="title" value="" placeholder="Enter your title!"></form>
-<form class="PageCreateContent" method="post"><textarea name="page_content" placeholder="Enter your text!" rows="8" cols="80"></textarea></form>
+
+<form  method="POST">
+  <div class="PageCreateTitle">
+      <input type="text" name="title"  placeholder="Enter your title!">
 </div>
-<div name="Submit"><input type="button" value="Create!" class="Submit"></input></div>
+<div class="PageCreateContent">
+    <textarea name="content" placeholder="Enter your text!" rows="8" cols="80"></textarea>
+</div>
+
+<div>
+<input type="submit" value="Create!" name="create" class="Submit"></input>
+</div>
+
+</form>
+
+</div>
+
+
 
 
 

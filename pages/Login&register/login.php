@@ -32,6 +32,9 @@
 <!--===============================================================================================-->
 </head>
 <body>
+	<?php
+include "../homepage/loginNav.php";
+	 ?>
 
 <form action="includes/login.inc.php" method="post">
 	<div class="limiter">

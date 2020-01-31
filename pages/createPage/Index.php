@@ -1,7 +1,4 @@
 
-<head>
-  <link rel="stylesheet" src="style.css">
-</head>
 <?php
 require "dbh.php";
 
@@ -24,5 +21,13 @@ $page_content = $_POST['content']
           print("error", "Provide Data in the Textbox");
   }
 }
+
+
+
+
+
 mysqli_close();
+
+
+
 ?>
