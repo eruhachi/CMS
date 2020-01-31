@@ -38,7 +38,7 @@ else {
                 $_SESSION['userId'] = $row['idUsers'];
                 $_SESSION['userUid'] = $row['uidUsers'];
 
-                header("Location: ../index.php?login=success");
+                header("Location: ../../homepage/userDashboard.php?login=success");
                 exit();
             }
             else {
