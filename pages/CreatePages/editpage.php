@@ -1,13 +1,9 @@
 <?php
 
-
 require "dbh.php";
 //require "../Login&register/includes/dbh.inc.php";
 
-
-
 $page_id = $_GET["id"];
-
 
 $title = $_POST['titel'];
 $page_content = $_POST['content'];
@@ -28,7 +24,6 @@ $page_content = $_POST['content'];
           print("error: Provide Data in the Textbox");
   }
 
-x
 ?>
 
 <!DOCTYPE html>
