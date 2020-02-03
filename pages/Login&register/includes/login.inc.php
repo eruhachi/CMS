@@ -38,6 +38,8 @@ else {
                 $_SESSION['userId'] = $row['idUsers'];
                 $_SESSION['userUid'] = $row['uidUsers'];
 
+                	session_start();
+
                 header("Location: ../../homepage/userDashboard.php?login=success");
                 exit();
             }

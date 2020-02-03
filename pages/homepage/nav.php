@@ -17,9 +17,8 @@
     if (isset($_SESSION['userId']) && isset($_SESSION['userUid'])) {
             echo '<b><a href="/CMS/pages/homepage/userDashboard.php"><li>Dashboard</li></a></b>';
           }else{
-                     echo '<a href="/CMS/index.php"><li>Dashboard</li></a>';
+                     echo '<b><a href="/CMS/index.php"><li>Dashboard</li></a></b>';
           }
-
 
     ?>
 
