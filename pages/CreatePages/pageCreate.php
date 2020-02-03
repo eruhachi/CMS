@@ -3,9 +3,7 @@
 require "dbh.php";
 
 
-if ((empty($title)) || empty($content)) {
-  echo "no";
-}else if(isset($_POST['create'])){
+if(isset($_POST['create'])){
   $title = $_POST['title'];
   $content = $_POST['content'];
 
